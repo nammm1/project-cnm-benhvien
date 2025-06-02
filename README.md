@@ -9,4 +9,5 @@ Các giao diện chính của Website
 Giao diện của các công nghệ mới được áp dụng (ClamAV và Chatbot)
 
 
-![cnm2](https://github.com/user-attachments/assets/5668105f-1303-4209-ac9e-be0888f9ff95)
+
+![cnm2](https://github.com/user-attachments/assets/b567eff5-bd41-4ca4-959c-7f50d3ce85c1)
