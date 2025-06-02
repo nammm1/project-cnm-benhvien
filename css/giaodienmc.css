@@ -1,0 +1,349 @@
+/* Reset CSS */
+
+/* Navigation Styles */
+
+
+/* Section Styles */
+.section1 {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    width: 80%;
+    margin-bottom: 100px;
+    height: auto;
+}
+
+.tenChucNang {
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    align-items: center;
+}
+
+.tenChucNang_cuthe {
+    font-size: 1.8rem;
+    color: #0056b3;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid #007bff;
+    display: inline-block;
+    width: 30%;
+    background-color: #D6E4FF;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.them {
+    width: 80%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.them button {
+    background-color: #D6E4FF;
+    font-weight: bold;
+}
+
+/* Form Styles */
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+#formcstt, .table,#formlhk,#formhsba,
+#formlhk,#formpxn,#formtpxn,#formspxn,#formlxn {
+    text-align: center;
+}
+
+.table th {
+    background-color: #D6E4FF;
+}
+
+.text button[type="button"] {
+    font-weight: bold;
+}
+
+.button input[type="submit"] {
+    width: 120px;
+    height: 40px;
+    background-color: #D6E4FF; 
+    border: none;
+    margin: 0px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.button input[type="submit"]:hover {
+    background-color: #008CBA; 
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+.button {
+    text-align: center;
+    margin-top: 50px;
+}
+
+input[type="text"],
+input[type="datetime"],
+input[type="file"],
+input[type="time"],
+input[type="date"],
+select {
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    outline-color: #b0c7f4;
+}
+
+input:focus {
+    outline: none; /* Ẩn outline mặc định nếu dùng box-shadow */
+    box-shadow: 0 0 0 3px rgba(155, 203, 255, 0.916); /* Tạo outline lớn hơn */
+}
+
+.control-label {
+    padding-top: 10px;
+    background-color:#D6E4FF;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.sua input[type="submit"] {
+    width: 50px;
+    height: 25px;
+    background-color: #D6E4FF; 
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.sua a {
+    text-decoration: none;
+    color: black;
+    width: 50px;
+    height: 25px;
+    background-color: #D6E4FF; 
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.modal-footer {
+    justify-content: center;        
+}
+
+#modalSua_luu {
+    background-color: #D6E4FF;
+}
+
+#modalSua_luu:hover {
+    background-color: #4381fe;
+    color: white;
+}
+
+#nut_xoa {
+    background-color: #D6E4FF;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 4px 8px;
+    font-size: 14px;
+}
+
+#nut_xoa:hover {
+    background-color: #e22b2b;
+    color: white;
+}
+
+/* Button Styles */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Pagination Styles */
+.pagination {
+    margin-top: 50px;
+    display: block;
+    text-align: center;
+}
+
+.pagination .page_item {
+    display: inline; /* Để các nút nằm ngang */
+    padding: 5px 10px; /* Khoảng cách bên trong */
+    margin: 5px; /* Khoảng cách giữa các nút */
+    /* background-color: #007bff; Màu nền */
+    color: rgb(0, 0, 0); /* Màu chữ */
+    text-decoration: none; /* Bỏ gạch chân */
+    border-radius: 5px; /* Bo góc */
+    transition: background-color 0.3s; /* Hiệu ứng chuyển màu */
+}
+
+.pagination .page_item:hover {
+    background-color:#8fa8db; /* Màu nền khi hover */
+    color: rgb(255, 255, 255);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hospital-info {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    .navbar {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    .search-booking {
+        width: 100%;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+}
+
+/* Common Components */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Table Styles */
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+
+th, td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+}
+
+th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+tr:hover {
+    background-color: #f8f9fa;
+}
+
+/* Alert Messages */
+.alert {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 500px;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* Image Styles */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-thumbnail {
+    padding: 0.25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    max-width: 100%;
+    height: auto;
+}
+
+

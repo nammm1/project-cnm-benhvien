@@ -1,0 +1,565 @@
+* {
+    box-sizing: border-box;
+    margin: 0px auto;
+    font-family: Arial, sans-serif;
+}
+
+.containerr {
+    width: 100%;
+    height: auto;
+}
+
+header {
+    background-color: #f1f5ff;
+}
+
+.header {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1b295b;
+    margin-right: 200px;
+}
+
+.logo .highlight {
+    color: #3498db;
+}
+
+.contact-info {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-info .info {
+    font-size: 14px;
+    color: #3498db;
+}
+
+.icon {
+    margin-right: 5px;
+    color: #1b295b;
+}
+
+.user {
+    margin-top: 5px;
+}
+
+.user .icon-user {
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.user .user-link {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.user .user-link:hover {
+    text-decoration: none;
+}
+
+nav {
+    width: 100%;
+    height: auto;
+    background-color: #1b295b;
+}
+
+.navbar {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.navbar a:hover {
+    border-bottom: 3px solid white;
+}
+
+.search-booking {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-booking .icon {
+    color: #ffffff;
+}
+
+button[type="button"] {
+    background-color: #dce6ff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: #1b295b;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.cover-image {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    transform: translateY(-30%);
+}
+
+.section1 {
+    width: 100%;
+    height: 300px;
+}
+
+/* Tin tức Section */
+.news-section {
+    padding: 20px;
+    background-color: #ffffff;
+    margin-top: 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Tiêu đề chuyên mục */
+.news-title {
+    text-align: center;
+    font-size: 28px;
+    color: #0288d1;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Đường gạch chia cắt */
+.divider {
+    width: 80px;
+    height: 3px;
+    background-color: #0288d1;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.news-item {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.news-item h2 {
+    color: #0288d1;
+    font-size: 24px;
+}
+
+.news-item p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.news-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.news-item a {
+    color: #0288d1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.news-item a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    padding: 10px 15px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    max-width: fit-content;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Giao diện chung */
+.t-news-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+/* Nội dung chính */
+.t-main-content {
+    width: 80%;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-left: 15px;
+    border-radius: 8px;
+}
+
+.t-news-title {
+    font-size: 28px;
+    color: rgb(64, 21, 124);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.t-divider {
+    width: 80px;
+    height: 3px;
+    background-color: #0288d1;
+    margin-bottom: 20px;
+}
+
+/* Nội dung bài viết */
+.t-news-item p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.t-news-item img {
+    max-width: 100%;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+.t-left-sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.t-left-sidebar ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.t-left-sidebar ul li i {
+    font-size: 20px;
+    color: #0288d1;
+}
+
+.t-left-sidebar ul li a {
+    font-size: 16px;
+    color: #555;
+    text-decoration: none;
+}
+
+.t-left-sidebar ul li a:hover {
+    color: #0288d1;
+    text-decoration: underline;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 200px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu li {
+    list-style-type: none;
+    padding: 8px 12px;
+}
+
+.dropdown-menu li a {
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #ddd;
+}
+
+/* Contact Section */
+.contact {
+    width: 100%;
+    height: auto;
+}
+
+.contact-section {
+    width: 80%;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.contact-section h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.contact-info-1 {
+    display: flex;
+}
+
+.contact-box {
+    background-color: #d6e4ff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 220px;
+    text-align: center;
+    color: #333;
+}
+
+.contact-box i {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #008cba;
+}
+
+.contact-box h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact-box p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Footer Section */
+footer {
+    background-color: #1f3b73;
+    color: #fff;
+    padding: 40px 20px;
+    width: 100%;
+}
+
+.footer-content {
+    width: 80%;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footer-box {
+    width: 200px;
+}
+
+.footer-box h2,
+.footer-box h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-box p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.footer-box a {
+    color: white;
+    text-decoration: none;
+}
+
+.newsletter {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.newsletter input {
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    width: 100%;
+}
+
+.newsletter button {
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #0066cc;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer-bottom {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #fff;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+.footer-bottom .social-media-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-bottom .social-media-icons a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.footer-bottom .social-media-icons a:hover {
+    color: #3498db;
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    .contact-info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .search-booking {
+        margin-top: 10px;
+    }
+
+    .t-news-container {
+        flex-direction: column;
+    }
+
+    .t-main-content {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .contact-box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+.image-benhHoc {
+    width: 100%; /* Make the image as wide as its parent container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove default margin for images */
+    margin: 0 auto; /* Center the image horizontally */
+  }
+
+  
+  .image-tieuduong {
+    text-align: center;  /* Căn giữa toàn bộ phần chứa ảnh nếu cần */
+
+}
+
+.image-tieuduong img {
+    width: 100%;          /* Chiều rộng 100% của phần tử chứa */
+    max-width: 600px;     /* Giới hạn chiều rộng tối đa là 600px */
+    height: auto;         /* Chiều cao tự động theo tỷ lệ */
+    display: block;       /* Đảm bảo ảnh hiển thị như một phần tử block */
+    margin: 0 auto;       /* Căn giữa ảnh */
+}
+
+.blue-text {
+    color: rgb(38, 35, 230); /* Màu xanh dương nhạt */
+}
+
+
+
+.tag {
+    background-color: #D6E4FF; /* Màu nền xanh dương nhạt */
+    color: #00796b; /* Màu chữ */
+    padding: 5px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px; /* Chữ nhỏ hơn */
+}
+
+.tag:hover {
+    background-color: #b3caff; /* Màu nền khi hover, một màu xanh nhạt hơn */
+    color: #004d40; /* Màu chữ khi hover */
+}
+
+
+.update-share {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.update-time {
+    font-size: 14px;
+    color: #555;
+}
+
+.share-icons {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.share-icons p {
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.social-icon {
+    text-decoration: none;
+    font-size: 18px;
+    color: #555;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #00796b; /* Màu khi hover */
+}
+
+.social-icon i {
+    font-size: 20px;
+}
+
+.social-icon.calendar i {
+    font-size: 22px; /* Icon lịch hơi lớn hơn một chút */
+}
+
+

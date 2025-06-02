@@ -1,0 +1,207 @@
+.container {
+    max-width: 100%; /* Đặt chiều rộng tối đa cho container */
+    margin: 0 auto; /* Căn giữa container */
+}
+
+form {
+    background: #ffffff; /* Nền trắng cho form */
+    padding: 2rem; /* Thêm padding bên trong */
+    border-radius: 10px; /* Bo tròn các góc */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Thêm bóng đổ */
+}
+
+.form-group {
+    margin-bottom: 1.5rem; /* Khoảng cách giữa các nhóm form */
+}
+
+.form-group label {
+    font-weight: 600; /* Đậm chữ */
+    color: #333; /* Màu chữ */
+}
+
+.form-control {
+    width: 100%; /* Chiều rộng 100% cho tất cả các trường nhập */
+    padding: 0.75rem; /* Padding cho các trường nhập */
+    border: 1px solid #ddd; /* Đường viền */
+    border-radius: 4px; /* Bo tròn các góc */
+    font-size: 1rem; /* Kích thước font */
+    transition: border-color 0.3s; /* Hiệu ứng chuyển màu đường viền */
+}
+
+.form-control:focus {
+    border-color: #007bff; /* Màu viền khi focus */
+    outline: none; /* Bỏ viền ngoài */
+}
+
+.btn {
+    background-color: #007bff; /* Màu nền cho nút */
+    color: white; /* Màu chữ */
+    padding: 1rem; /* Padding cho nút */
+    border: none; /* Bỏ viền */
+    border-radius: 4px; /* Bo tròn các góc */
+    cursor: pointer; /* Con trỏ chuột khi hover */
+    font-size: 1.1rem; /* Kích thước chữ nút */
+    transition: background-color 0.3s; /* Hiệu ứng chuyển màu nền */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Màu nền khi hover */
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem; /* Giảm padding trên màn hình nhỏ */
+    }
+}
+.section1{
+    width: 80%;
+    margin-bottom: 100px;
+    height: auto;
+}
+
+.tenChucNang {
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+    font-size: 20px;
+    align-items: center;
+}
+.tenChucNang_cuthe{
+    width: 30%;
+    background-color: #D6E4FF;
+    color: black; 
+    font-weight: bold; 
+    text-align: center; 
+    padding: 20px; 
+    border-radius: 8px;
+}
+.them{
+    width: 80%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.them button{
+    background-color: #D6E4FF;
+    font-weight: bold;
+}
+
+
+#formcstt, .table,#formlhk,#formhsba,
+#formlhk,#formpxn,#formtpxn,#formspxn,#formlxn{
+    text-align: center;
+}
+.table th{
+    background-color: #D6E4FF;
+}
+
+.text button[type="button"]{
+    font-weight: bold;
+}
+.button input[type="submit"]{
+    width: 120px;
+    height: 40px;
+    background-color: #D6E4FF; 
+    border: none;
+    margin: 0px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.button{
+    text-align: center;
+    margin-top: 50px;
+
+}
+input[type="text"],
+input[type="date"],
+input[type="file"],
+input[type="time"],
+select {
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    outline-color: #b0c7f4;
+
+}
+input:focus {
+    outline: none; /* Ẩn outline mặc định nếu dùng box-shadow */
+    box-shadow: 0 0 0 3px rgba(155, 203, 255, 0.916); /* Tạo outline lớn hơn */
+}
+.control-label{
+    padding-top: 10px;
+    background-color:#D6E4FF;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+.sua input[type="submit"]{
+    width: 50px;
+    height: 25px;
+    background-color: #D6E4FF; 
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+
+.sua a{
+    text-decoration: none;
+    color: black;
+    width: 50px;
+    height: 25px;
+    background-color: #D6E4FF; 
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.modal-footer{
+    justify-content: center;        
+}
+#modalSua_luu{
+    background-color: #D6E4FF;
+}
+#modalSua_luu:hover{
+    background-color: #4381fe;
+    color: white;
+}
+#nut_xoa{
+    background-color: #D6E4FF;
+    font-weight: bold;
+    padding: 8px 15px;
+    font-size: 14px;
+}
+#nut_xoa:hover{
+    background-color: #e22b2b;
+    color: white;
+}
+
+.pagination{
+    margin-top: 50px;
+    display: block;
+    text-align: center;
+}
+.pagination .page_item {
+    display: inline; /* Để các nút nằm ngang */
+    padding: 5px 10px; /* Khoảng cách bên trong */
+    margin: 5px; /* Khoảng cách giữa các nút */
+    /* background-color: #007bff; Màu nền */
+    color: rgb(0, 0, 0); /* Màu chữ */
+    text-decoration: none; /* Bỏ gạch chân */
+    border-radius: 5px; /* Bo góc */
+    transition: background-color 0.3s; /* Hiệu ứng chuyển màu */
+}
+
+.pagination .page_item:hover {
+    background-color:#8fa8db; /* Màu nền khi hover */
+    color: rgb(255, 255, 255);
+}
+
+
+

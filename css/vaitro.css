@@ -1,0 +1,68 @@
+.section1{
+    width: 100%;
+    margin-bottom: 100px;
+    height: auto;
+}
+
+.tenChucNang {
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+.tenChucNang_cuthe{
+    width: 30%;
+    background-color: #D6E4FF;
+    color: black; 
+    font-weight: bold; 
+    text-align: center; 
+    padding: 20px; 
+}
+
+
+.grid-container {
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    justify-items: center;
+
+}
+
+
+.grid-item {
+    width: 350px;
+    height: 100px;
+    display: flex;
+    flex-direction: column; /* Xếp phần tử theo chiều dọc từ trên xuống */
+    align-items: center;
+    justify-content: center;
+    background-color: #D6E4FF;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.grid-item i {
+    font-size: 40px; 
+    color: #007BFF; 
+    margin-bottom: 10px;
+}
+
+.grid-item p {
+    margin: 0;
+    font-size: 14px;
+    color: #1B295B;
+}
+
+.grid-item a{
+    text-decoration: none;
+}
+
+.grid-item:hover {
+    background-color: #e8f0fe;
+}
+
+
